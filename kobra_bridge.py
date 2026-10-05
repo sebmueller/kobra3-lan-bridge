@@ -13,7 +13,7 @@ options) or the KOBRA_OPTIONS_JSON environment variable (useful for testing).
 Options:
 {
   "printers": [
-    {"name": "Kobra 3 - oben", "ip": "192.168.2.107"}
+    {"name": "Kobra 3", "ip": "192.168.1.100"}
   ],
   "mqtt_host": "core-mosquitto",
   "mqtt_port": 1883,

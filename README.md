@@ -70,7 +70,7 @@ For a live view in Home Assistant, the recommended setup is [go2rtc](https://git
 
 ```yaml
 streams:
-  kobra_oben: http://192.168.2.107:18088/flv
+  kobra_oben: http://192.168.1.100:18088/flv
 ```
 
 go2rtc restreams this as RTSP (`rtsp://<go2rtc-host>:8554/kobra_oben`) or serves JPEG snapshots (`http://<go2rtc-host>:1984/api/frame.jpeg?src=kobra_oben`) which a HA *Generic Camera* can display.
